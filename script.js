@@ -16,12 +16,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const centerImage = document.getElementById('centerImage');
 
     yesButton.addEventListener('click', () => {
-        centerImage.src = 'final.gif'; // Path to your final.gif
+        centerImage.src = 'https://github.com/Omu-hehe/kavya-be-my-valentine/blob/main/final.gif'; // Path to your final.gif
         alert('Thank you! I love you too.');
     });
 
     noButton.addEventListener('click', () => {
-        centerImage.src = '2.jpg'; // Path to your 2.jpg
+        centerImage.src = 'https://github.com/Omu-hehe/kavya-be-my-valentine/blob/main/2.jpg'; // Path to your 2.jpg
         alert("Don't you love me now? Choose again.");
     });
 });
